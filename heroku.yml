@@ -1,0 +1,5 @@
+build: 
+  docker: 
+      daisy: Dockerfile
+run:
+   daisy: python3 start.py
