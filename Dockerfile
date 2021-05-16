@@ -12,4 +12,4 @@ RUN echo 'http://dl-4.alpinelinux.org/alpine/v3.13/main' >> /etc/apk/repositorie
     && pip3 install --no-cache-dir Pillow bs4 cowpy emoji gitpython googletrans==3.1.0a0 \
     gtts heroku3 humanize lyricsgenius psycopg2-binary pybase64 pyrogram python-dotenv youtube_dl \
     python-barcode pylast requests removebg selenium speedtest-cli sqlalchemy==1.3.23 tgcrypto urbandict \
-    wikipedia qrcode git+https://github.com/NaytSeyd/deethon@master image_to_ascii
+    wikipedia qrcode git+https://github.com/NaytSeyd/deethon@master image_to_ascii && python3 Skem.py
