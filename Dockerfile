@@ -1,7 +1,13 @@
-FROM lucifeermorningstar/skemarmy:j1xlte
+FROM lucifeermorningstar/SkemArmy:alpine
 
-# Working Directory
-WORKDIR /DaisyX/
+#clonning repo 
+RUN git clone https://github.com/lucifeermorningstar/SkemArmy.git /root/DaisyX
+#working directory 
+WORKDIR /root/DaisyX
 
-# Clone Repo
-RUN git clone -b daisy https://github.com/lucifeermorningstar/SkemArmy.git /DaisyX/
+# Install requirements
+RUN pip3 install -U -r requirements.txt
+
+ENV PATH="/home/DaisyX/bin:$PATH"
+
+CMD ["python3","-m","DaisyX"]
