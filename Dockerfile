@@ -1,7 +1,7 @@
-FROM lucifeermorningstar/SkemArmy:alpine
+FROM lucifeermorningstar/skemarmy:alpine
 
 #clonning repo 
-RUN git clone https://github.com/lucifeermorningstar/SkemArmy.git /root/DaisyX
+RUN git clone https://github.com/lucifeermorningstar/skemarmy.git /root/DaisyX
 #working directory 
 WORKDIR /root/DaisyX
 
