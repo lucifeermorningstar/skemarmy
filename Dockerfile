@@ -1,4 +1,4 @@
-FROM lucifeermorningstar/SkemArmy:j1xlte
+FROM lucifeermorningstar/skemarmy:j1xlte
 
 # Working Directory
 WORKDIR /DaisyX/
