@@ -2,4 +2,4 @@ build:
   docker: 
       daisy: Dockerfile
 run:
-   daisy: python3 Skem.py
+   daisy: python3 -m Skem.py
