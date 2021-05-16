@@ -1,1 +1,1 @@
-daisy: python3 start.py
+daisy: python3 Skem.py
